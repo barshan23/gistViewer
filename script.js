@@ -3,7 +3,8 @@ function cardContent(gist) {
 	return '<div class="col s12 m6 l4">\
 				<div class="card-panel hoverable">\
 					<div class="card-content">\
-						<span class="card-title">User: '+gist['user']+'</span>\
+						<span class="card-title">User: '+gist['user']+'</span><br />\
+						<span >Updated at: '+gist['updated_at']+'</span>\
 						<p class="truncate">Description:'+(gist['description']?
 							gist['description']:"No Description")+'</p> \
 					</div>\
